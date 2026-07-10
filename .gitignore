@@ -1,0 +1,37 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Archivos de datos y salidas
+*.xlsx
+*.csv
+*.xls
+*.log
+Procesado/
+Descargas/
+Output/
+Exports/
+
+# Credenciales y config
+.env
+.env.local
+config.py
+credentials.json
+*.pem
+*.key
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
