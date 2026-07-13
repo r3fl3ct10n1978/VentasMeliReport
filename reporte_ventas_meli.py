@@ -241,7 +241,7 @@ def preparar_ruta_salida(archivo_salida=None):
     carpeta_procesado = os.path.join(os.getcwd(), 'Procesado')
     os.makedirs(carpeta_procesado, exist_ok=True)
 
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M')
     nombre_base = f'Reporte_Pendientes_Meli_{timestamp}.xlsx'
     return os.path.join(carpeta_procesado, nombre_base)
 
