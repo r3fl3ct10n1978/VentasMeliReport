@@ -1,0 +1,30 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Entradas y salidas
+input/
+output/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.txt
+*.log
+
+# Variables y credenciales
+.env
+*.env
+credentials.json
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
